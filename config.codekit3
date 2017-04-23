@@ -9,6 +9,108 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/framework\/assets\/fonts\/ElfaBrush.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/ElfaBrush.eot",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/ElfaBrush.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/ElfaBrush.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/framework\/assets\/fonts\/ElfaBrush.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/ElfaBrush.ttf",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/ElfaBrush.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/ElfaBrush.woff",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/ElfaBrush.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/ElfaBrush.woff2",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Bold.eot",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Bold.ttf",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Bold.woff",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Bold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Bold.woff2",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Regular.eot",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Regular.ttf",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Regular.woff",
+		"oF": 0
+		},
+	"\/framework\/assets\/fonts\/HKSerif-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/fonts\/HKSerif-Regular.woff2",
+		"oF": 0
+		},
 	"\/framework\/assets\/js\/dist\/google-analytics.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1351,6 +1453,24 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/readme.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -1388,9 +1508,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 507270567,
-	"displayValue": "test",
+	"displayValue": "VeasleyDesign",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_teal"
+	"iconImageName": "brackets_orange"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

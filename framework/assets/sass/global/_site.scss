@@ -2,6 +2,11 @@
 // These styles applies throughout the whole website
 //==========================================================
 
+body {
+	font-family: $font-main !important;
+}
+
+
 a {
 	-moz-outline: none !important;
 	outline: none !important;

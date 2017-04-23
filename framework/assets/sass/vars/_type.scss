@@ -1,5 +1,51 @@
 /* =============================
 	   		FONTS
 =============================== */
-$font-main: Helvetica, sans-serif;
-$font-title: "Alegreya SC",serif;
+
+$font-main: 'HKSerif-Regular', serif;
+$font-title: 'ElfaBrush', sans-serif;
+
+
+// HK SERIF REGULAR
+//=====================================
+@font-face {
+  font-family: 'HKSerif-Regular';
+  src: url('/framework/assets/fonts/HKSerif-Regular.eot');
+  src: url('/framework/assets/fonts/HKSerif-Regular.woff2') format('woff2'),
+       url('/framework/assets/fonts/HKSerif-Regular.woff') format('woff'),
+       url('/framework/assets/fonts/HKSerif-Regular.ttf') format('truetype'),
+       url('/framework/assets/fonts/HKSerif-Regular.svg#HKSerif-Regular') format('svg'),
+       url('/framework/assets/fonts/HKSerif-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// HK SERIF BOLD
+//======================================
+@font-face {
+  font-family: 'HKSerif-Bold';
+  src: url('/framework/assets/fonts/HKSerif-Bold.eot');
+  src: url('/framework/assets/fonts/HKSerif-Bold.woff2') format('woff2'),
+       url('/framework/assets/fonts/HKSerif-Bold.woff') format('woff'),
+       url('/framework/assets/fonts/HKSerif-Bold.ttf') format('truetype'),
+       url('/framework/assets/fonts/HKSerif-Bold.svg#HKSerif-Bold') format('svg'),
+       url('/framework/assets/fonts/HKSerif-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// ELF BRUSH
+//=====================================
+@font-face {
+  font-family: 'ElfaBrush';
+  src: url('/framework/assets/fonts/ElfaBrush.eot');
+  src: url('/framework/assets/fonts/ElfaBrush.woff2') format('woff2'),
+       url('/framework/assets/fonts/ElfaBrush.woff') format('woff'),
+       url('/framework/assets/fonts/ElfaBrush.ttf') format('truetype'),
+       url('/framework/assets/fonts/ElfaBrush.svg#ElfaBrush') format('svg'),
+       url('/framework/assets/fonts/ElfaBrush.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
