@@ -1,3 +1,49 @@
 /* =============================
 		HOME PAGE
 =============================== */
+
+// THANKS FOR STOPPING BY!
+//============================
+.stopping-by {
+	
+	.x-text {
+		
+	}
+	
+}
+
+
+// ABOUT ME
+//============================
+#about-me {
+	background-position: 50% 10px !important;
+	
+	.x-text {
+		font-size: 28px;
+		color: $gray;
+		
+		
+		h1 {
+			font-size: 500% !important;
+			margin-bottom: 0 !important;
+			
+			> a {
+				color: $d-gray;
+				
+				&:hover,
+				&:focus {
+					color: $orange;
+				}
+			}
+		}
+		
+		
+		
+		p {
+			margin-bottom: em(10);
+		}
+	}
+	
+	
+	
+}

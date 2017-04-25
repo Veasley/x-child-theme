@@ -82,8 +82,14 @@
 ._before._overlay-black {
     
     &::before {
-       // background-color: rgba($black, .7);
-        z-index: -1;
+        background-color: rgba($black, .25);
+    }
+}
+
+._before._overlay-white {
+    
+    &::before {
+        background-color: rgba(white, .95);
     }
 }
 
@@ -101,4 +107,13 @@
 			display: block !important;
 		}
 	}
+}
+
+
+//VERTICALLY CENTER ELEMENTS
+//==========================
+._vert-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }

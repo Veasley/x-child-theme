@@ -12,3 +12,27 @@ a {
 	outline: none !important;
 }
 
+
+.site {
+	background-color: transparent !important;
+	
+	.x-section {
+		margin: 0 auto !important;
+		width: 85%;
+		background-color: white !important;
+	}
+	
+	#x-section-1.x-section,
+	footer .x-container {
+		width: 100%;
+		background-color: transparent;
+	}
+	
+	#x-section-2 {
+		z-index: 2;
+		margin-top: -5% !important;
+	}	
+}
+
+
+

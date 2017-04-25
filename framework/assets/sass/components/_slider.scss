@@ -1,0 +1,21 @@
+/* =============================
+	   SLIDER STYLES
+=============================== */
+
+#service-slider {
+	
+	//Service Image
+	.service-img {
+		
+		> img {
+			padding: em(45);
+		}
+	}
+	
+	
+	//Service Content
+	.service-item {
+		background-color: rgba(white, .7);
+		padding: em(60) em(45);
+	}
+}

@@ -5,7 +5,7 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-title !important;
 	margin-top: 0 !important;
-	margin-bottom: 0 !important;
+	margin-bottom: em(8) !important;
 }
 
 
@@ -66,7 +66,7 @@ h6 {
 
 	//Gray Variant
 	//=======================
-	&.-grey{
+	&.-gray{
 
 		> h1, h2, h3, h4,h5,h6, p{
 			//color: $grey;
@@ -81,7 +81,25 @@ h6 {
 		> h1, h2, h3, h4, h5, h6, p{
 			color: white;
 		}
-
+	}
+	
+	&.-bar {
+		
+		&::after {
+			content: "";
+		    background-color: $d-gray;
+		    width: 100px;
+		    height: 5px;
+		    display: block;
+		    margin: em(30) auto 0 !important;
+		}
+	}
+	
+	&.-no-bar {
+		
+		&::after {
+			display: none;
+		}
 	}
 
 }
@@ -89,7 +107,8 @@ h6 {
 
 // TEXT WIDTHS
 //========================
-.x-text{
+.x-text {
+	line-height: 1.2;
 	
 	&._max-1300 {
 		max-width: em( 1300 );
@@ -99,12 +118,24 @@ h6 {
 		max-width: em( 1150 );
 	}
 	
+	&._max-920 {
+		max-width: em( 920 );
+	}
+	
+	&._max-800 {
+		max-width: em( 800 );
+	}
+	
 	&._max-520 {
 		max-width: em( 520 );
 	}
 	
 	&._max-480 {
 		max-width: em( 480 );
+	}
+	
+	&._max-340 {
+		max-width: em( 340 );
 	}
 	
 	
@@ -121,6 +152,22 @@ h6 {
 	&._right {
 		margin-left: auto;
 		margin-right:0;
+	}
+	
+	&._larger-txt {
+		
+		> p {
+			font-size: 24px;
+		}
+		
+	}
+	
+	&._med-txt {
+		
+		> p {
+			font-size: 18px;
+		}
+		
 	}
 }
 

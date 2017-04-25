@@ -155,6 +155,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/components\/_slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/components\/_slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/components\/components-loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1428,6 +1441,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/framework\/assets\/views\/renew\/wp-header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/assets\/views\/renew\/wp-header.php",
+		"oF": 0
 		},
 	"\/framework\/includes\/enqueues\/scripts.php": {
 		"ft": 8192,
