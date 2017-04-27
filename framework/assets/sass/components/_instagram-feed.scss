@@ -1,0 +1,54 @@
+// INSTAGRAM FEED
+// =====================================
+
+//Instagram slider section
+//========================
+#ved-instagram {
+	position: relative;
+	
+	.x-text {
+		position: absolute;
+		display: block;
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translateY(-50%);
+		z-index: 5;
+		text-align: center;
+		background-color: rgba(255, 255, 255, .95);
+		padding: em(30);
+		
+		
+		h2 {
+			font-size: 400% !important;
+			margin-bottom: 0 !important;
+			line-height: 1;
+			
+			> a {
+				color: $d-gray;
+				
+				&:hover,
+				&:focus {
+					color: $orange;
+				}
+			}
+		}
+		
+		
+		
+		p {
+			font-size: 22px;
+			margin-bottom: em(10);
+		}
+		
+	}		
+}
+
+
+//PLUS ICON - GALLERY HOVER
+//================================
+.tg-icon-add,
+.apia .tg-media-button i {
+	position: relative !important;
+	color: $orange !important;
+}

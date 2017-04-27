@@ -2,14 +2,15 @@
 	   BASE BUTTON STYLES
 =============================== */
 
-//Black Button
+//Orange Button
 //==================
 .x-btn {
-	//border: 8px double $black !important;
-	padding: em(20) em(35)!important;
-	font-size: 16px !important;
-	letter-spacing: 1px;
-	font-weight: 600;
+	//font-family: $font-main;
+	padding: em(15) em(35)!important;
+	font-size: 15px;
+	letter-spacing: 1px !important;
+	text-shadow: none !important;
+	text-transform: uppercase;
 	
 	//600px
     @include respond-max($l-phone) {
@@ -20,41 +21,7 @@
 
 	&:hover,
 	&:focus {
-		//border: 8px double $black;
-		//background-color: rgba($black, .8) !important;
 		color: white;
 	}
 	
-}
-
-//White Button
-//====================
-.x-btn.-white-btn{
-	border: 8px double white !important;
-	color: white;
-
-
-	&:focus,
-	&:hover {
-		border: 8px double white;
-		background-color: rgba(white, .8) !important;
-		//color: $black;
-	}
-
-}
-
-
-//Green Button
-//====================
-.x-btn.-lime-btn{
-	//border: 8px double $green !important;
-	color: white;
-
-	&:focus,
-	&:hover {
-		//border: 8px double $green;
-		//background-color: rgba($green, .8) !important;
-		color: white;
-	}
-
 }

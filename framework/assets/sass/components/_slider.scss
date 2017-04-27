@@ -9,6 +9,7 @@
 		
 		> img {
 			padding: em(45);
+			width: 100%;
 		}
 	}
 	
@@ -16,6 +17,24 @@
 	//Service Content
 	.service-item {
 		background-color: rgba(white, .7);
-		padding: em(60) em(45);
+		padding: em(60) em(60);
+		
+		h4 {
+			font-family: $font-mont !important;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $d-gray;
+		}
+		
+		p {
+			&::after {
+				content: "";
+			    background-color: $d-gray;
+			    width: 100px;
+			    height: 5px;
+			    display: block;
+			    margin: em(30) 0 em(40) !important;
+			}
+		}
 	}
 }

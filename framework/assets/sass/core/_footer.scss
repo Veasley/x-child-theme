@@ -1,3 +1,26 @@
 /* =============================
 	   FOOTER STYLES
 =============================== */
+
+.x-colophon.bottom {	
+	padding: em(30) !important;
+	
+	
+	.x-colophon-content {
+		text-transform: uppercase;
+		text-align: left;
+		display: inline;
+	}
+	
+	.follow-us {
+		text-align: right;
+		
+		.x-social-global {
+			margin: 0;
+			
+			i {
+				border-radius: 10px;
+			}
+		}
+	}
+}

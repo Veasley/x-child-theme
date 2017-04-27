@@ -2,6 +2,9 @@
 			HANDY HELPERS
 ========================================*/
 
+._img-full {
+	width: 100%;
+}
 
 // MOBILE PADDING
 //========================
@@ -82,7 +85,7 @@
 ._before._overlay-black {
     
     &::before {
-        background-color: rgba($black, .25);
+        background-color: rgba($black, .35);
     }
 }
 
