@@ -2,10 +2,26 @@
 	 PAGE HEADER STYLES
 =============================== */
 
+// HOMEPAGE HERO
+//===========================
 #home-hero {
 	
 	img {
 		width: 50%;
 		margin-bottom: 0;
+	}
+}
+
+
+
+// INNER PAGE HERO
+//===========================
+#inner-page-hero {
+	
+	h1 {
+		font-family: $font-mont !important;
+		text-transform: uppercase;
+		color: white;
+		font-weight: bold;
 	}
 }

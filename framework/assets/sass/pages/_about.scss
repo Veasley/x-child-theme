@@ -1,3 +1,50 @@
 /* =============================
 		ABOUT PAGE
 =============================== */
+
+// MY STORY
+//======================
+.my-story {
+	
+	img {
+		max-width: 20%;
+	}
+	
+	.story {
+			position: relative;
+		
+		&::after {
+			content: "";
+			position: relative;
+		    background-color: $d-gray;
+		    width: 100px;
+		    height: 5px;
+		    display: block;
+		    margin: 0 auto 0 !important;
+		}
+	}
+	
+	.x-block-grid {
+		margin-bottom: em(15);
+	}
+	
+	
+	.x-block-grid-item {
+		font-size: 15.5px;
+		line-height: 1.5;
+	}
+}
+
+
+// FUN FACTS
+//=======================
+#fun-facts {
+	
+	.x-column.x-1-4 {
+		transition: all .2s ease-in-out;
+		
+		&:hover {
+			background-color: rgba(white, .75);
+		}
+	}
+}

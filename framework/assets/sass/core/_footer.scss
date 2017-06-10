@@ -2,14 +2,44 @@
 	   FOOTER STYLES
 =============================== */
 
+// CTA FOOTER
+//============================
+#cta-footer {
+	
+	.x-text {
+				
+		h2 {
+			font-size: 400% !important;
+			line-height: 1;
+			color: $d-gray;
+		}
+		
+		
+		
+		p {
+			font-size: 22px;
+			margin-bottom: em(10);
+		}
+		
+	}		
+	
+}
+
+
+// BOTTOM FOOTER
+//===========================
 .x-colophon.bottom {	
-	padding: em(30) !important;
+	padding: em(45) !important;
 	
 	
 	.x-colophon-content {
-		text-transform: uppercase;
 		text-align: left;
 		display: inline;
+		font-size: 14px;
+		
+		> p {
+			margin-bottom: 0 !important;
+		}
 	}
 	
 	.follow-us {
@@ -22,5 +52,32 @@
 				border-radius: 10px;
 			}
 		}
+	}
+}
+
+
+.x-social-global {
+	
+	> a {
+		border-radius: 10px;
+		width: 45px !important;
+		height: 45px !important;
+		line-height: 45px !important;
+	}
+}
+
+
+//SCROLL TO TOP
+//=========================
+.x-scroll-top {
+	border: 3px solid $d-gray;
+	opacity: 1;
+	
+	&.in {
+		opacity: 1;
+	}
+	
+	> .x-icon-angle-up {
+		color: $d-gray;
 	}
 }

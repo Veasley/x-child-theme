@@ -4,6 +4,7 @@
 
 body {
 	font-family: $font-main !important;
+	background-attachment: fixed !important;
 }
 
 
@@ -23,6 +24,7 @@ a {
 	}
 	
 	#home-hero.x-section,
+	#inner-page-hero.x-section,
 	footer .x-container {
 		width: 100%;
 		background-color: transparent;
@@ -32,6 +34,19 @@ a {
 		z-index: 2;
 		margin-top: -5% !important;
 	}	
+}
+
+
+//BACKGROUND IMAGE
+//=========================
+.x-content-band.bg-image {
+   -webkit-background-size: auto !important;
+   background-size: auto !important;
+}
+
+//Parallax
+.x-section.bg-image.parallax {
+	background-attachment:  inherit !important;
 }
 
 

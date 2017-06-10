@@ -1,0 +1,33 @@
+/* =============================
+		SERVICES PAGES
+=============================== */
+#process-steps {
+	
+	.x-text {
+		
+		> h4 {
+			font-family: $font-mont !important;
+			text-transform: uppercase;
+			color: $d-gray;
+			font-weight: bold;
+			font-size: 20px;
+			letter-spacing: 0.03em;
+		}
+	}
+	
+	
+	.x-column.x-1-2 {
+		height: 558px;
+	}
+	
+	
+	.launch {
+		@include vert-center;
+		
+		img {
+			padding-right: 5%;
+		}
+	}
+	
+	
+}

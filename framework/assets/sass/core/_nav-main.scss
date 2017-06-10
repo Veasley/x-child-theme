@@ -7,10 +7,44 @@
 }
 
 .x-navbar {
- 	background-color: transparent !important;
  	border: 0;
+ 	
+ 	.menu-item {
+	 	
+	 	> a {
+		 	font-family: $font-main !important;
+		 	
+		 	&:hover{
+			 	
+			 	> span {
+			 		box-shadow: 0 2px 0 0 $orange !important;
+		 		}			 	
+		 	}
+	 	}
+ 	}
 }
 
-.x-logobar{
-  	background-color: transparent !important;
+//Current Active item
+//===========================
+.x-navbar .desktop .x-nav > li.current-menu-item > a > span {
+	box-shadow: 0 2px 0 0 $orange !important;
+}
+
+//Services
+.x-navbar .desktop .x-nav > li.current-menu-item.menu-item-has-children > a > span {
+	box-shadow: none !important;
+}
+
+
+//Sub Nav
+//=========================
+.x-navbar ul.sub-menu {
+	left: 0 !important;
+	top: 50px !important;
+	
+	.menu-item {
+		font-size: 16px;
+		letter-spacing: 0.09em !important;
+		padding: 0 em(15) !important;
+	}
 }
